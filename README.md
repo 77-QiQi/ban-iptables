@@ -5,7 +5,7 @@
 ```
 apt-get update && apt-get upgrade -y
 
-apt-get install iptables gawk -y
+apt-get install curl iptables gawk -y
 
 curl https://raw.githubusercontent.com/77-QiQi/ban-iptables/main/ban_iptables.sh -o ban_iptables.sh
 
